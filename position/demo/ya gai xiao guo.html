@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            position:relative;
+            float:left;
+            width: 200px;
+            height: 200px;
+            margin-right:20px;
+        }
+        .mask {
+            position: absolute;
+            display: table;
+            left:0;
+            bottom:0;
+            width: 200px;
+            height: 100px;
+
+            background: rgba(255,255,255,0.5);
+        }
+        .mask p {
+            display:table-cell;
+            vertical-align: middle;
+            /*
+            垂直居中只能在table中使用
+
+            */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <img src="../../img/1.jpg" alt="" width="200" height="200">
+    <div class="mask">
+        <p>
+            葫芦庙为什么会失火？
+            葫芦庙为什么会失火？
+            葫芦庙为什么会失火？
+        </p>
+    </div>
+
+    <div class="box">
+        <img src="../../img/2.jpg" alt="" width="200" height="200">
+        <div class="mask">
+            <p>葫芦庙为什么会失火？</p>
+        </div>
+
+</body>
+</html>

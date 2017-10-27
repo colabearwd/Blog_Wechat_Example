@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d52916d-6392-4a4e-859f-e7910e94515f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clear float/BFC/display.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clear float/BFC/float.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clear float/BFC/overflow01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clear float/BFC/position.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clear float/clearfix01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clear float/clearfix02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clear float/clearfix03.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clear float/extra-clear.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/float/fu dong nei lian pai/float left 02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/float/fu dong nei lian pai/float left-ka zhu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/float/fu dong nei lian pai/float left.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/float/tuo li wen dang/ceshi.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/float/tuo li wen dang/no-float.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/float/tuo li wen dang/p1-float-left.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/float/tuo li wen dang/p1-float-right.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/position/absolute01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/position/demo/horizontal-center.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/position/demo/time-change.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/position/demo/ya gai xiao guo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/position/fixed01.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/position/relative01.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/float/01.html" afterPath="$PROJECT_DIR$/float/height-collapse.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,70 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="clearfix03.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clear float/clearfix03.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="overflow01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clear float/BFC/overflow01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="float.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clear float/BFC/float.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="display.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clear float/BFC/display.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="position.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clear float/BFC/position.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="extra-clear.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clear float/extra-clear.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -136,6 +63,12 @@
         <option value="$PROJECT_DIR$/clear float/BFC/overflow01.html" />
         <option value="$PROJECT_DIR$/clear float/BFC/float.html" />
         <option value="$PROJECT_DIR$/clear float/BFC/display.html" />
+        <option value="$PROJECT_DIR$/position/relative01.html" />
+        <option value="$PROJECT_DIR$/position/absolute01.html" />
+        <option value="$PROJECT_DIR$/position/fixed01.html" />
+        <option value="$PROJECT_DIR$/position/demo/ya gai xiao guo.html" />
+        <option value="$PROJECT_DIR$/position/demo/horizontal-center.html" />
+        <option value="$PROJECT_DIR$/position/demo/time-change.html" />
       </list>
     </option>
   </component>
@@ -147,8 +80,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
+    <option name="x" value="794" />
+    <option name="width" value="579" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -183,30 +116,7 @@
             <path>
               <item name="Blog_Wechat_Example" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blog_Wechat_Example" type="462c0819:PsiDirectoryNode" />
-              <item name="clear float" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blog_Wechat_Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog_Wechat_Example" type="462c0819:PsiDirectoryNode" />
-              <item name="clear float" type="462c0819:PsiDirectoryNode" />
-              <item name="BFC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blog_Wechat_Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog_Wechat_Example" type="462c0819:PsiDirectoryNode" />
-              <item name="float" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blog_Wechat_Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog_Wechat_Example" type="462c0819:PsiDirectoryNode" />
-              <item name="float" type="462c0819:PsiDirectoryNode" />
-              <item name="fu dong nei lian pai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blog_Wechat_Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog_Wechat_Example" type="462c0819:PsiDirectoryNode" />
-              <item name="float" type="462c0819:PsiDirectoryNode" />
-              <item name="tuo li wen dang" type="462c0819:PsiDirectoryNode" />
+              <item name="position" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,15 +240,15 @@
       <option name="presentableId" value="Default" />
       <updated>1508812617129</updated>
       <workItem from="1508812618683" duration="533000" />
-      <workItem from="1508942659572" duration="11845000" />
+      <workItem from="1508942659572" duration="22444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12378000" />
+    <option name="totallyTimeSpent" value="22977000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <frame x="794" y="0" width="579" height="735" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -352,7 +262,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3877551" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38728324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -506,24 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clear float/extra-clear.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clear float/BFC/position.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clear float/BFC/overflow01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -542,8 +434,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clear float/BFC/display.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clear float/BFC/position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clear float/extra-clear.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/position/absolute01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="47" column="6" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/position/relative01.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <caret line="18" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/position/fixed01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/position/demo/horizontal-center.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/position/demo/ya gai xiao guo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="36" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/position/demo/time-change.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding />
         </state>
       </provider>

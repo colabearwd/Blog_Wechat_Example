@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        html body
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        #parent
+        {
+            width: 200px;
+            height: 200px;
+            border: solid 5px black;
+            padding: 0px;
+            position: relative;
+            background-color: green;
+            top: 15px;
+            left: 15px;
+        }
+        #sub1
+        {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            /*   相对定位   */
+            /*position的relative位置是相对于原来的位置*/
+            position: relative;
+            top:15px;
+            left: 15px;
+        }
+        #sub2
+        {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+            /*position的relative位置是相对于原来的位置*/
+            position: relative;
+            top:10px;
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="parent">
+    <div id="sub1">
+    </div>
+    <div id="sub2">
+    </div>
+</div>
+
+</body>
+</html>

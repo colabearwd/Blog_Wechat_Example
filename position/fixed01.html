@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        html body
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        #parent
+        {
+            width: 200px;
+            height: 200px;
+            border: solid 5px black;
+            padding: 0px;
+            position: relative;
+            background-color: green;
+            top: 15px;
+            left: 15px;
+        }
+        #sub1
+        {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            /*   绝对定位   */
+            /*position的absolute位置是相对于原来的位置*/
+            position: absolute;
+            top:15px;
+            left: 15px;
+        }
+        #sub2
+        {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+            /*position的fixed*/
+            position: fixed;
+            top:10px;
+            left: 10px;
+        }
+        </style>
+</head>
+<body>
+fixed是一种特殊的absolute，
+fixed总是以body为定位对象的，
+按照浏览器的窗口进行定位。
+
+我们将代码还原到最初状态，
+Sub1 增加absolute定位方式，
+而Sub2 增加fixed定位方式：
+
+<div id="parent">
+    <div id="sub1">
+    </div>
+    <div id="sub2">
+    </div>
+</div>
+
+</body>
+</html>
