@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>学习认识z-index</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        #box{
+            width: 1000px;
+            height:1000px;
+            border: 1px royalblue solid;
+        }
+        #box1{
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            z-index: 999;
+
+            position: absolute;
+
+        }
+        #box2{
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            margin-left: 150px;
+            z-index: 99;
+
+            position: absolute;
+        }
+        #box3{
+            background-color: green;
+            width: 200px;
+            height: 200px;
+            margin-left: 300px;
+            z-index: 9;
+
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <div id="box1">
+        <span >我的z-index为999</span>
+    </div>
+    <div id="box2">
+        <span >我的z-index为99</span>
+    </div>
+    <div id="box3">
+        <span >我的z-index为9</span>
+    </div>
+</div>
+</body>
+</html>
