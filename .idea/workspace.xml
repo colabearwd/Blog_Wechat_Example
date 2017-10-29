@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d52916d-6392-4a4e-859f-e7910e94515f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/z-index/z1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9d52916d-6392-4a4e-859f-e7910e94515f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -108,11 +105,6 @@
             <path>
               <item name="Blog_Wechat_Example" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blog_Wechat_Example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blog_Wechat_Example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog_Wechat_Example" type="462c0819:PsiDirectoryNode" />
-              <item name="z-index" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,12 +228,12 @@
       <option name="presentableId" value="Default" />
       <updated>1508812617129</updated>
       <workItem from="1508812618683" duration="533000" />
-      <workItem from="1508942659572" duration="23803000" />
+      <workItem from="1508942659572" duration="23846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24336000" />
+    <option name="totallyTimeSpent" value="24379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="531" y="0" width="842" height="735" extended-state="0" />
