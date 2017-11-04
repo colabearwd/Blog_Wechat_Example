@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style type="text/css">
+        .d{
+            float: left;
+            margin: 50px;
+        }
         html body
         {
             margin: 0px;
             padding: 0px;
         }
-        #parent
-        {
-            width: 200px;
-            height: 200px;
-            margin: 10px;
-            border: solid 5px black;
-            padding: 5px;
-            background-color: green;
-            /*position: relative;*/
+        #parent1
+         {
+             width: 200px;
+             height: 200px;
+             margin: 10px;
+             border: solid 5px black;
+             padding: 5px;
+             background-color: green;
 
-            /*top: 15px;*/
-            /*left: 15px;*/
-        }
+             position: relative;
+             top: 15px;
+             left: 15px;
+         }
         #sub1
         {
             width: 100px;
@@ -29,9 +33,9 @@
             background-color: blue;
             /*      绝对定位        */
             /*  */
-            position: absolute;
-            top:0px;
-            left:0px;
+            /*position: absolute;*/
+            /*top:0px;*/
+            /*left:0px;*/
         }
         #sub2
         {
@@ -43,30 +47,210 @@
             /*top: 10px;*/
             /*left: 10px;*/
         }
+
+        #parent2
+        {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border: solid 5px black;
+            padding: 5px;
+            background-color: green;
+
+            position: relative;
+            top: 15px;
+            left: 15px;
+        }
+        #sub3
+        {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            /*      绝对定位        */
+
+            position: absolute;
+            top:0px;
+            left:0px;
+        }
+        #sub4
+        {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+            /*position: absolute;*/
+            /*top: 10px;*/
+            /*left: 10px;*/
+        }
+
+
+        #parent3
+        {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border: solid 5px black;
+            padding: 5px;
+            background-color: green;
+
+            position: relative;
+            top: 15px;
+            left: 15px;
+        }
+        #sub5
+        {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            /*      绝对定位        */
+            /*  */
+            position: absolute;
+            top:0px;
+            left:0px;
+        }
+        #sub6
+        {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        #parent4
+        {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border: solid 5px black;
+            padding: 5px;
+            background-color: green;
+
+            /*position: relative;*/
+            /*top: 15px;*/
+            /*left: 15px;*/
+        }
+        #sub7
+        {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            /*      绝对定位        */
+            /*  */
+            position: absolute;
+            top:0px;
+            left:0px;
+        }
+        #sub8
+        {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
     </style>
 </head>
 <body>
 
-1、  如果Sub1 的父元素或者祖父元素，设置了Position属性，
-并且属性值为 absolute 或 relative的时候，
-那么子元素相对于父元素来进行定位。
+<div>
 
-比如我们例子中最外层Div Parent设置了相对定位属性，
-因此Sub1 和 Sub2 两个Div 就根据 Div Parent 来进行定位。
-但是根据Parent那个定位点进行定位呢？
-答案是：如果parent设定了margin，border，padding等属性，
-那么这个定位点将忽略padding，将会从padding开始的地方
-(即只从padding的左上角开始)进行定位。
-
-2、  如果sub1不存在一个有着position属性的父对象，
-那么那就会以body为定位对象，按照浏览器的窗口进行定位。
-
-<div id="parent">
-    <div id="sub1">
+    <div class="d">
+        <div id="parent1">
+            <div id="sub1">
+            </div>
+            <div id="sub2">
+            </div>
+        </div>
+        <div>
+            <p>
+                parent元素 <br>
+                position: relative;<br>
+                top: 15px;<br>
+                left: 15px;<br>
+                margin: 10px;<br>
+                padding: 5px;
+            </p>
+        </div>
     </div>
-    <div id="sub2">
+    <div class="d">
+        <div id="parent2">
+            <div id="sub3">
+            </div>
+            <div id="sub4">
+            </div>
+        </div>
+        <div>
+            <p>
+                blue色块 绝对定位 <br>
+                position: absolute;<br>
+                top:0px;<br>
+                left:0px;
+            </p>
+        </div>
     </div>
+    <div class="d">
+        <div id="parent3">
+            <div id="sub5">
+            </div>
+            <div id="sub6">
+            </div>
+        </div>
+        <div>
+            <p>
+                blue色块 绝对定位 <br>
+                position: absolute;<br>
+                top:0px;<br>
+                left:0px;
+            </p>
+
+            <p>
+                red色块 绝对定位 <br>
+                position: absolute;<br>
+                top: 10px;<br>
+                left: 10px;
+            </p>
+        </div>
+    </div>
+    <!--<div style="clear: both"></div>-->
+    <div class="d">
+        <div id="parent4">
+            <div id="sub7">
+            </div>
+            <div id="sub8">
+            </div>
+        </div>
+        <div>
+            <p>去掉上个图中的parent的这三个元素 <br>
+                position: relative;<br>
+                top: 15px;<br>
+                left: 15px;
+            </p>
+        </div>
+
+    </div>
+    <div  style="clear: both"></div>
+<div style="text-align: center">
+    <h3 >absolute是绝对定位</h3>
+    1、  如果blue 的父元素或者祖父元素，设置了Position属性，
+    并且属性值为 absolute 或 relative的时候，<br>
+    那么子元素相对于父元素来进行定位。<br>
+
+    比如我们例子中最外层Div Parent设置了相对定位属性，
+    因此blue 和 red 两个Div 就根据 Div Parent 来进行定位。<br>
+    但是根据Parent那个定位点进行定位呢？
+    答案是：如果parent设定了margin，border，padding等属性，<br>
+    那么这个定位点将忽略padding，将会从padding开始的地方
+    (即只从padding的左上角开始)进行定位。<br>
+
+    2、  如果blue不存在一个有着position属性的父对象，
+    那么那就会以body为定位对象，按照浏览器的窗口进行定位。<br>
+
 </div>
-
+</div>
 </body>
 </html>
