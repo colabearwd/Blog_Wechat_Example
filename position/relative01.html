@@ -9,7 +9,7 @@
             margin: 0px;
             padding: 0px;
         }
-        #parent
+        #parent1
         {
             width: 200px;
             height: 200px;
@@ -27,9 +27,12 @@
             background-color: blue;
             /*   相对定位   */
             /*position的relative位置是相对于原来的位置*/
-            position: relative;
+			
+            /*
+			position: relative;
             top:15px;
             left: 15px;
+			*/
         }
         #sub2
         {
@@ -38,19 +41,146 @@
             background-color: red;
 
             /*position的relative位置是相对于原来的位置*/
-            position: relative;
+			
+            /*
+			position: relative;
             top:10px;
             left: 10px;
+			*/
+        }
+
+        #parent2
+        {
+            width: 200px;
+            height: 200px;
+            border: solid 5px black;
+            padding: 0px;
+            position: relative;
+            background-color: green;
+            top: 15px;
+            left: 15px;
+        }
+        #sub3
+        {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            /*   相对定位   */
+            /*position的relative位置是相对于原来的位置*/
+
+
+			position: relative;
+            top:15px;
+            left: 15px;
+
+        }
+        #sub4
+        {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+            /*position的relative位置是相对于原来的位置*/
+
+            /*
+			position: relative;
+            top:10px;
+            left: 10px;
+			*/
+        }
+
+
+
+        #parent3
+        {
+            width: 200px;
+            height: 200px;
+            border: solid 5px black;
+            padding: 0px;
+            position: relative;
+            background-color: green;
+            top: 15px;
+            left: 15px;
+        }
+        #sub5
+        {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            /*   相对定位   */
+            /*position的relative位置是相对于原来的位置*/
+
+
+            position: relative;
+            top:15px;
+            left: 15px;
+
+        }
+        #sub6
+        {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+            /*position的relative位置是相对于原来的位置*/
+
+
+			position: relative;
+            top:10px;
+            left: 10px;
+
+        }
+
+        .d{
+            margin: 50px;
+            float: left;
         }
     </style>
 </head>
 <body>
-
-<div id="parent">
+<div style="text-align: center">
+<h2 >relative是相对原来的位置移动</h2>
+</div>
+<div class="d">
+<div id="parent1">
     <div id="sub1">
     </div>
     <div id="sub2">
     </div>
+</div>
+    <p>parent green 宽 高 200px <br>边框是5px 黑色 实线 <br>sub1   blue  宽 高 100px <br>
+    sub2   blue  宽 高 100px </p>
+</div>
+<div class="d">
+    <div id="parent2">
+        <div id="sub3">
+        </div>
+        <div id="sub4">
+        </div>
+    </div>
+    <p>
+    position: relative;<br>
+    top:15px;<br>
+    left: 15px;
+    </p>
+</div>
+<div class="d">
+    <div id="parent3">
+        <div id="sub5">
+        </div>
+        <div id="sub6">
+        </div>
+    </div>
+    <p>
+        position: relative;<br>
+        top:15px;<br>
+        left: 15px;
+    </p>
+    <p>
+        position: relative;<br>
+        top:10px;<br>
+        left: 10px;
+    </p>
 </div>
 
 </body>
