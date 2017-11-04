@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d52916d-6392-4a4e-859f-e7910e94515f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/position/absolute01.html" afterPath="$PROJECT_DIR$/position/absolute01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/position/demo/ya gai xiao guo.html" afterPath="$PROJECT_DIR$/position/demo/ya gai xiao guo.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,27 +14,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="absolute01.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/position/absolute01.html">
+      <file leaf-file-name="ya gai xiao guo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/position/demo/ya gai xiao guo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="246" column="31" lean-forward="true" selection-start-line="246" selection-start-column="31" selection-end-line="246" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="relative01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/position/relative01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,12 +69,12 @@
         <option value="$PROJECT_DIR$/clear float/BFC/float.html" />
         <option value="$PROJECT_DIR$/clear float/BFC/display.html" />
         <option value="$PROJECT_DIR$/position/fixed01.html" />
-        <option value="$PROJECT_DIR$/position/demo/ya gai xiao guo.html" />
         <option value="$PROJECT_DIR$/position/demo/horizontal-center.html" />
         <option value="$PROJECT_DIR$/position/demo/time-change.html" />
         <option value="$PROJECT_DIR$/z-index/z1.html" />
         <option value="$PROJECT_DIR$/position/relative01.html" />
         <option value="$PROJECT_DIR$/position/absolute01.html" />
+        <option value="$PROJECT_DIR$/position/demo/ya gai xiao guo.html" />
       </list>
     </option>
   </component>
@@ -137,6 +122,12 @@
               <item name="Blog_Wechat_Example" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blog_Wechat_Example" type="462c0819:PsiDirectoryNode" />
               <item name="position" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog_Wechat_Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog_Wechat_Example" type="462c0819:PsiDirectoryNode" />
+              <item name="position" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,12 +253,12 @@
       <updated>1508812617129</updated>
       <workItem from="1508812618683" duration="533000" />
       <workItem from="1508942659572" duration="23846000" />
-      <workItem from="1509788327386" duration="5332000" />
+      <workItem from="1509788327386" duration="6034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29711000" />
+    <option name="totallyTimeSpent" value="30413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -473,13 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/position/demo/ya gai xiao guo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="36" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/position/demo/time-change.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -506,12 +490,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/position/absolute01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="246" column="31" lean-forward="true" selection-start-line="246" selection-start-column="31" selection-end-line="246" selection-end-column="31" />
+        <state relative-caret-position="158">
+          <caret line="233" column="0" lean-forward="true" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/position/demo/ya gai xiao guo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
