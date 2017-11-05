@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .topbar{
+            width:100%;
+            height:50px;
+            display:-webkit-flex;
+            display:flex;
+            background:#f97500;
+        }
+        .topbar_lt{
+            height:50px;
+            background:#bfbfbf;
+        }
+        .logo{
+            width:34px;
+            background:#fff url(../images/icon.png) 1px -1px; display:inline-block;
+            border-radius: 34px;
+            margin: 6px 9px 0 6px;
+        }
+        .searchbox{
+            height:30px;
+            margin:10px;
+            -webkit-flex:1;
+            flex:1;
+            line-height:30px;
+            border-radius: 20px;
+            overflow:hidden;
+            outline:none;
+            text-indent:2em;
+            color:#666;
+            border:0;
+            outline:none;
+            background:#fff3e9 url(../images/icon.png) -190px -6px no-repeat;
+        }
+        .searchbox:focus{
+            background:#fff url(../images/icon.png) -190px -6px no-repeat;
+        }
+        .search_txt{
+            width:50px;
+            height:50px;
+            border:none;
+            outline:none;
+            color:#fff;
+            border-left:1px solid #ff8f33;
+        }
+    </style>
+</head>
+<body>
+<nav class="topbar">
+    <div class="topbar_lt">
+        <a class="logo" href="index.html"></a>
+    </div>
+    <input class="searchbox" type="text" placeholder="请输入关键词搜索">
+    <button class="search_txt">搜索</button>
+</nav>
+</body>
+</html>
